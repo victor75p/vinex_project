@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(116, 236, 156)
+}
+
+h1{
+ color: blue;
+ font:size 60px;
+}
+
+h2{
+font-size: 60px;
+text-align: center;
+}
+
+div {
+  background-color: bisque;
+}
+
+.com {
+  background-color: azure;
+  color:rgb(34, 34, 153);
+  border: solid 2px black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.hot {
+  background-color: burlywood;
+  color: black;
+  border: solid 2px red;
+  margin: 20px;
+  padding: 10px;
+}
+
+.agt {
+  background-color: green;
+  color: burlywood;
+  border: solid 2px red;
+  margin: 20px;
+  padding: 10px;
+}
+
+p {
+  color: aqua;
+  background-color: #558d5e;
+}
+
+button {
+ border: 2px solid blue;
+ padding: 15px;
+ margin: 50px;
+ }
+
+table,th, td {
+  border: solid 1px blue;
+  border-collapse: collapse;
+ }

@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    background-color: rgb(116, 34, 34);
+    padding-top: 60px;
+}
+
+.navbar {
+    background-color: black;
+    color: red;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: beige;
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px ;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.asideleft, .asideright {
+    background-color: rgb(20, 170, 40);
+    padding: 15px;
+}
+
+.asideleft h2, .asideright h2 {
+    margin-top: 10px;
+}
+
+.asideleft ul, .asideright ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.asideleft li, .asideright li {
+    margin-top: 5px;
+}
+
+.asideleft a, .asideright a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.content{
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 10px;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.content img.featured-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,th,td {
+    border: 1px solid cornsilk;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: azure;
+}
+
+
+.footer {
+    background-color: wheat;
+    color: rgb(110, 43, 5);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 28px;
+}
